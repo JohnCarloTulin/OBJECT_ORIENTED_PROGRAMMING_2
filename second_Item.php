@@ -51,7 +51,7 @@ class QuadraticEquation {
 }
 
 // Demonstration of the code
-$quadraticEquationVariable = new QuadraticEquation(5, -1, 7);
+$quadraticEquationVariable = new QuadraticEquation(1, -3, 2);
 echo "Coefficient a: " . $quadraticEquationVariable->getA() . "\n";
 echo "Coefficient b: " . $quadraticEquationVariable->getB() . "\n";
 echo "Coefficient c: " . $quadraticEquationVariable->getC() . "\n";
@@ -59,4 +59,5 @@ echo "The discriminant value: " . $quadraticEquationVariable->getDiscriminant() 
 echo "Calculated Root #1: " . $quadraticEquationVariable->getPositiveRoot() . "\n";
 echo "Calculated Root #2: " . $quadraticEquationVariable->getNegativeRoot() . "\n";
 ?>
+
 
